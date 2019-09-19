@@ -1,0 +1,7 @@
+setup.py
+rod_align_api.egg-info/PKG-INFO
+rod_align_api.egg-info/SOURCES.txt
+rod_align_api.egg-info/dependency_links.txt
+rod_align_api.egg-info/top_level.txt
+src/rod_align_cuda.cpp
+src/rod_align_kernel.cu
