@@ -20,3 +20,6 @@ python 3.5 or later, pytorch 1.0 or later, numpy, cv2, scipy.
 3. Test environment: A spare workstation with dual NV TITAN RTX GPU cards, Intel Core i9-7900X, DDR4 2400MHz 16Gx6 Memory, Samsung 970 EVO 1T nvme m.2 SSD, 1200W PSU; Ubuntu 16.04, GCC 5.4.0, NV CUDA-10.0 (with CUDA Patch Version 10.0.130.1), NV cuDNN 7.6 (compatible with CUDA-10.0), and PyTorch 1.2.0.
 
 4. There is no plan to offer pre-built bundles across various environments due to our limited time. You can download the pre-built bundle in the test environment at /root/to/Grid-Anchor-based-Image-Cropping-Pytorch/prebuilt_bundles for evaluation.
+
+### Other implementation
+1. [PyTorch 0.4.2 + Python 2.7](https://github.com/HuiZeng/Grid-Anchor-based-Image-Cropping-Pytorch).
