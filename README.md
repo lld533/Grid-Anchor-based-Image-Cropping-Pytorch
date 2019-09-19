@@ -21,5 +21,8 @@ python 3.5 or later, pytorch 1.0 or later, numpy, cv2, scipy.
 
 4. There is no plan to offer pre-built bundles across various environments due to our limited time. You can download the pre-built bundle in the test environment at /root/to/Grid-Anchor-based-Image-Cropping-Pytorch/prebuilt_bundles for evaluation.
 
-### Other implementation
+### Other notes
+1. This repository is developed to be compatible with Python3 and PyTorch 1.0+. Please refer to the [official implementation](https://github.com/HuiZeng/Grid-Anchor-based-Image-Cropping-Pytorch) for any performance comparison.
+
+### Official PyTorch implementation
 1. [PyTorch 0.4.2 + Python 2.7](https://github.com/HuiZeng/Grid-Anchor-based-Image-Cropping-Pytorch).
