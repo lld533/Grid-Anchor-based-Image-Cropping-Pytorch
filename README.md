@@ -26,24 +26,11 @@ python 3.5 or later, pytorch 1.0 or later, numpy, cv2, scipy.
 ### Annotation software
 We release binary executable annotation software at /root/to/Grid-Anchor-based-Image-Cropping-Pytorch/annotation. The software is developed and is only available on Windows with dot Net 4.5 and WPF. At the moment, there is no plan to release the ENTIRE source code of the software. Luckily, part to the key code are released in $root/annotation/ref_code. Before you start, please kindly read the notes below.
 
-1. We only support image files with the following extensions, including jpg, jpeg, png, and tiff. Please put all your images at /root/to/Grid-Anchor-based-Image-Cropping-Pytorch/annotation/images so that you have
-
-annotation/
-	images/
-	    img1.jpg		
-	    img2.jpg
-	    ...
-		
+1. We only support image files with the following extensions, including jpg, jpeg, png, and tiff. Please put all your images at /root/to/Grid-Anchor-based-Image-Cropping-Pytorch/annotation/images.
 
 2. Double click ImageCrop2.exe to start the annotation software. Click the checkbox named 1-5 to give a cropped image a mark. Toggle your mouse wheel to go to the previous/next page. At each page, at most 4 cropped images are presented for marking. They are organized as ImageSource1 (top left), ImageSource2 (bottom left), ImageSource3 (top right) and ImageSource4 (bottom right). Please check $root/annotation/ref_code/MainWindowViewModel.cs to see how we crop an image and group the cropped ones by aspect ratio. 
 
-3. The software makes a "scores" directory and scores of the cropped images are saved with their corresponding image name in $root/annotation/scores such that you have 
-
-annotation/
-	scores/
-	    img1.txt
-	    img2.txt
-	    ...
+3. The software makes a "scores" directory and scores of the cropped images are saved with their corresponding image name in $root/annotation/scores.
 		
 Please note that a negative value, i.e. -1 in a score file means there is no need to mark the cropped image. The scores of cropped images are arranged in the text file according to how they are generated. For details, please check the function called ComputeCategories() in $root/annotation/ref_code/MainWindowViewModel.cs.
 
