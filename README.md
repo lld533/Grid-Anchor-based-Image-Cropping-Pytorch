@@ -29,9 +29,9 @@ We release binary executable annotation software at /root/to/Grid-Anchor-based-I
 1. We only support image files with the following extensions, including jpg, jpeg, png, and tiff. Please put all your images at /root/to/Grid-Anchor-based-Image-Cropping-Pytorch/annotation/images so that you have
 
 annotation/
-    images/
-        img1.jpg		
-        img2.jpg
+	images/
+	    img1.jpg		
+	    img2.jpg
 	    ...
 		
 
@@ -40,10 +40,10 @@ annotation/
 3. The software makes a "scores" directory and scores of the cropped images are saved with their corresponding image name in $root/annotation/scores such that you have 
 
 annotation/
-    scores/
-        img1.txt
-        img2.txt
-        ...
+	scores/
+	    img1.txt
+	    img2.txt
+	    ...
 		
 Please note that a negative value, i.e. -1 in a score file means there is no need to mark the cropped image. The scores of cropped images are arranged in the text file according to how they are generated. For details, please check the function called ComputeCategories() in $root/annotation/ref_code/MainWindowViewModel.cs.
 
