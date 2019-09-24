@@ -24,7 +24,7 @@ python 3.5 or later, pytorch 1.0 or later, numpy, cv2, scipy.
 4. There is no plan to offer pre-built bundles across various environments due to our limited time. You can download the pre-built bundle in the test environment at /root/to/Grid-Anchor-based-Image-Cropping-Pytorch/prebuilt_bundles for evaluation.
 
 ### Annotation software
-We release binary executable annotation software at /root/to/Grid-Anchor-based-Image-Cropping-Pytorch/annotation. The software is developed and is only available on Windows with dot Net 4.5 and WPF. At the moment, there is no plan to release the ENTIRE source code of the software. Luckily, part to the key code are released in $root/annotation/ref_code. Before you start, please kindly read the notes below.
+We release binary executable annotation software at /root/to/Grid-Anchor-based-Image-Cropping-Pytorch/annotation. The software is developed and is only available on Windows with dot Net 4.5 and WPF. At the moment, there is no plan to release the ENTIRE source code of the software. Luckily, the key code are released in $root/annotation/ref_code. Before you start, please kindly read the notes below.
 
 1. We only support image files with the following extensions, including jpg, jpeg, png, and tiff. Please put all your images at /root/to/Grid-Anchor-based-Image-Cropping-Pytorch/annotation/images.
 
