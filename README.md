@@ -2,7 +2,7 @@
 This code includes several extensions we have made to our conference version. Please read the [paper](https://drive.google.com/open?id=1Bd1VaqYVycB7Npv5OdXKl-znKs_APl4n) for details.
 
 ### Official PyTorch implementation
-1. [PyTorch 0.4.2 + Python 2.7](https://github.com/HuiZeng/Grid-Anchor-based-Image-Cropping-Pytorch).
+1. [PyTorch 0.4.1 + Python 2.7](https://github.com/HuiZeng/Grid-Anchor-based-Image-Cropping-Pytorch).
 
 ### Requirements
 python 3.5 or later, pytorch 1.0 or later, numpy, cv2, scipy. 
