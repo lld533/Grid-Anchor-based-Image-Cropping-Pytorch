@@ -213,6 +213,6 @@ void ROIAlignBackwardCpu(const float* top_diff, const float spatial_scale, const
 }
 
 PYBIND11_MODULE(TORCH_EXTENSION_NAME, m) {
-  m.def("forward", &rod_align_forward, "roi_align forward");
-  m.def("backward", &rod_align_backward, "roi_align backward");
+  m.def("forward", &roi_align_forward, "roi_align forward");
+  m.def("backward", &roi_align_backward, "roi_align backward");
 }
